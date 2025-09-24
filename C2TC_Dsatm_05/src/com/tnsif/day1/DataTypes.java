@@ -1,9 +1,17 @@
+
+//Program to demonstrate the datatypes
 package com.tnsif.day1;
 
 public class DataTypes {
 
 	public static void main(String[] args) {
-		System.out.print("hello world");
+
+       int a= 24;
+       int b= 13;
+       System.out.println("integer division :"  + a/b);
+       System.out.println("float division :" + (float)a/b);
+       System.out.println("double division :" + (double)a/b);
+
 	}
 
 }
